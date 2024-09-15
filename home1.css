@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.title {
+    font-weight: bold;
+    background-color: #d3d3d3;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Typography */
+.arial-font {
+    font-family: Arial, sans-serif;
+}
+
+.times-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Headings */
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+/* Colors */
+.orange-box {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ff6600;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.purple-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #5e2c94;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.default {
+    background-color: #4e2a8e;
+}
+
+.hovered {
+    background-color: #a083db;
+}
+
+.active {
+    background-color: #d6c3f4;
+}
